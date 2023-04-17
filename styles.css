@@ -1,3 +1,8 @@
+body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
 h1 {
     color: goldenrod;
     font-size: 48px;
@@ -9,11 +14,17 @@ p {
 }
 
 button {
-    font-size: 16px;
+    font-size: 18px;
+    width: 150px;
+    background-color: goldenrod;
+    border-style: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
 }
 
 .table-container {
     background-image: url("images/tablecloth-background.jpg");
+    background-size: cover;
     text-align: center;
     max-width: 400px;
     margin: auto;
